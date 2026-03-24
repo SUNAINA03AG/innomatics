@@ -33,6 +33,7 @@ This project is a backend API built using FastAPI for a Food Delivery System.
 This project includes 20 API tasks covering beginner to advanced FastAPI concepts.
 
 ## 📖 API Documentation
+Run the project locally and open:
 http://127.0.0.1:8000/docs
 
 ## ▶️ Run Project
