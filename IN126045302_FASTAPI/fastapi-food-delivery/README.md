@@ -11,28 +11,42 @@ This project is a backend API built using FastAPI for a Food Delivery System.
 - Search, Sorting, Pagination
 - Swagger API testing
 
-📌 API Endpoints
-GET /items → Get all food items
-GET /items/{id} → Get item by ID
-POST /items → Add new item
-PUT /items/{id} → Update item
-DELETE /items/{id} → Delete item
+## 📌 API Endpoints
+
+### Food Items
+- GET /items
+- GET /items/{id}
+- POST /items
+- PUT /items/{id}
+- DELETE /items/{id}
+
+### Orders
+- POST /orders
+- GET /orders
 
 ## 🛠️ Tech Stack
 - Python
 - FastAPI
 - Uvicorn
 
-📂 Project Structure
+## ✅ Tasks Completed
+This project includes 20 API tasks covering beginner to advanced FastAPI concepts.
 
+## 📖 API Documentation
+http://127.0.0.1:8000/docs
+
+## ▶️ Run Project
+```bash
+uvicorn main:app --reload
+
+📂 Project Structure
 fastapi-food-delivery/
 │── main.py
 │── requirements.txt
 │── README.md
 │── screenshots/
 
-## ▶️ Run Project
-```bash
-uvicorn main:app --reload
+
+
 
 
